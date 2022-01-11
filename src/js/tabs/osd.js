@@ -567,6 +567,15 @@ OSD.loadDisplayFields = function() {
             positionable: true,
             preview: 'R:2:200:P',
         },
+        VTX_POWER: {
+            name: 'VTX_POWER',
+            text: 'osdTextElementVtxPower',
+            desc: 'osdDescElementVtxPower',
+            defaultPosition: 1,
+            draw_order: 120,
+            positionable: true,
+            preview: 'R:2:200:P',
+        },
         VOLTAGE_WARNING: {
             name: 'VOLTAGE_WARNING',
             text: 'osdTextElementVoltageWarning',
